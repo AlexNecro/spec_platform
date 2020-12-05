@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26504615-49d4-45d0-96f7-53af2edf0832">
+  <producedTypes>
+    <selectionType typeId="6b8d5112-cbcf-4fc9-9021-a668a2dc4242" valueTypeId="3db9a478-36aa-4864-90d6-297537fd3e1d"/>
+    <listType typeId="839f39fd-0048-477d-9e47-71855af9e172" valueTypeId="64e7bce5-e0c6-4332-aaed-cff0f8cd289b"/>
+    <managerType typeId="f68d5f1d-e0a3-4763-9995-d4dae27710a9" valueTypeId="cadac455-e1b4-4bc7-8ab2-e8c9c415f0ef"/>
+    <recordSetType typeId="d8a2925f-5634-4de8-8d48-a1934046a487" valueTypeId="353904f9-99e8-425e-8e3a-aebd83c24252"/>
+    <recordKeyType typeId="94f8f9c1-0136-4792-bca6-83af4bcc0b22" valueTypeId="58828c88-96bc-4a4f-9cb4-4df66876eb02"/>
+    <recordType typeId="5264c228-63e7-405e-84e9-caadc5bfbfbc" valueTypeId="ad8506fa-1aaa-4a39-a060-76a3b62536ed"/>
+    <extDimensionsType typeId="23d85e9e-bd9c-4cae-9744-b60aa10adc5e" valueTypeId="c55a5921-32c6-49f7-a3f7-153fb1f53308"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <fullTextSearch>Use</fullTextSearch>
+  <resources uuid="11c103bb-b3c0-4297-b87c-79de8a2098ce">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+  <resources uuid="b397164f-a3b2-436c-8f38-8a9ea87d4eb3">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>
