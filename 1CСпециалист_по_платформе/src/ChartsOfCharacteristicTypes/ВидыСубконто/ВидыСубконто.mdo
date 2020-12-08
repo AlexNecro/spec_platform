@@ -96,7 +96,6 @@
   <type>
     <types>Date</types>
     <types>CatalogRef.Номенклатура</types>
-    <types>CatalogRef.Контрагенты</types>
     <dateQualifiers>
       <dateFractions>Date</dateFractions>
     </dateQualifiers>
@@ -126,22 +125,6 @@
         <dateQualifiers>
           <dateFractions>Date</dateFractions>
         </dateQualifiers>
-      </type>
-    </items>
-    <items id="fe1b66d0-6528-4607-9024-34d4a36ecbda">
-      <name>Поставщики</name>
-      <description>Поставщики</description>
-      <code>000000003</code>
-      <type>
-        <types>CatalogRef.Контрагенты</types>
-      </type>
-    </items>
-    <items id="317d11f9-0af6-4e84-b4fb-d4bc9f9085eb">
-      <name>Покупатели</name>
-      <description>Покупатели</description>
-      <code>000000004</code>
-      <type>
-        <types>CatalogRef.Контрагенты</types>
       </type>
     </items>
   </predefined>

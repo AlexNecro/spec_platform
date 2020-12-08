@@ -35,6 +35,7 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <balance>true</balance>
+    <extDimensionAccountingFlag>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlag>
   </resources>
   <resources uuid="b397164f-a3b2-436c-8f38-8a9ea87d4eb3">
     <name>Количество</name>
@@ -50,6 +51,6 @@
       </numberQualifiers>
     </type>
     <fullTextSearch>Use</fullTextSearch>
-    <balance>true</balance>
+    <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Количественный</accountingFlag>
   </resources>
 </mdclass:AccountingRegister>

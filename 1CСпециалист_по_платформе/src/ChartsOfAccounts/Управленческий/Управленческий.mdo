@@ -112,6 +112,7 @@
     <value>План счетов бухгалтерского учета &quot;Управленческий&quot;</value>
   </extendedListPresentation>
   <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконто</extDimensionTypes>
+  <maxExtDimensionCount>2</maxExtDimensionCount>
   <codeMask>@@.@@</codeMask>
   <codeLength>5</codeLength>
   <descriptionLength>50</descriptionLength>
@@ -177,9 +178,11 @@
         <accountingFlags>ChartOfAccounts.Управленческий.AccountingFlag.Количественный</accountingFlags>
         <extDimensionTypes>
           <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
         </extDimensionTypes>
         <extDimensionTypes>
           <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.СрокГодности</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
         </extDimensionTypes>
       </childItems>
       <childItems id="56803467-7777-47f8-8140-bc783543f752">
@@ -188,12 +191,6 @@
         <code>01.03</code>
         <order>01.03</order>
         <accountingFlags>ChartOfAccounts.Управленческий.AccountingFlag.Количественный</accountingFlags>
-        <extDimensionTypes>
-          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
-        </extDimensionTypes>
-        <extDimensionTypes>
-          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.СрокГодности</characteristicType>
-        </extDimensionTypes>
       </childItems>
       <childItems id="29ad9958-61e8-4d6c-bcb9-a81af7d26591">
         <name>Покупатели</name>
@@ -201,9 +198,6 @@
         <code>01.04</code>
         <accountType>ActivePassive</accountType>
         <order>01.04</order>
-        <extDimensionTypes>
-          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Покупатели</characteristicType>
-        </extDimensionTypes>
       </childItems>
       <childItems id="eb85509a-60af-4880-b660-8c70b9158956">
         <name>ОсновноеПроизводство</name>
@@ -253,9 +247,6 @@
         <code>02.02</code>
         <accountType>ActivePassive</accountType>
         <order>02.02</order>
-        <extDimensionTypes>
-          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Поставщики</characteristicType>
-        </extDimensionTypes>
       </childItems>
       <childItems id="2200e5b2-ef0d-4f80-bc31-d3df56983787">
         <name>КредитыИЗаймыПолученные</name>
@@ -295,4 +286,15 @@
     </type>
     <dataHistory>Use</dataHistory>
   </accountingFlags>
+  <extDimensionAccountingFlags uuid="ec5cec3e-54ab-41c8-9b32-8fe6e9cc6b02">
+    <name>Суммовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммовой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <dataHistory>Use</dataHistory>
+  </extDimensionAccountingFlags>
 </mdclass:ChartOfAccounts>

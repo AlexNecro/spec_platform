@@ -52,6 +52,7 @@
   <commonPictures>CommonPicture.БизнесПроцессы</commonPictures>
   <commonPictures>CommonPicture.Сервис</commonPictures>
   <commonModules>CommonModule.УчетнаяПолитика</commonModules>
+  <commonModules>CommonModule.ОбщийМодуль</commonModules>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
